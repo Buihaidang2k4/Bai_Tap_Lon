@@ -1,3 +1,8 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
 /* img carousel */
 
 .hinh1,
@@ -47,9 +52,17 @@
 
 /* end search */
 
+
+/* Carousel */
+
+.carousel-item {
+    max-width: 100%;
+    height: 400px;
+}
+
 .card:hover,
 .card:hover img {
-    background-color: hsl(0, 33%, 98%);
+    background-color: hsl(190, 100%, 98%);
     box-shadow: 0 0 10px white;
     border-color: rgb(0, 0, 0);
 }
@@ -67,6 +80,20 @@
     border-color: rgb(41, 24, 24);
     font-weight: bolder;
     color: black;
+}
+
+
+/*  Giảm giá */
+
+.sale {
+    border-radius: 15px;
+    border-style: inherit;
+    width: 20px;
+    height: 25px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
 }
 
 
