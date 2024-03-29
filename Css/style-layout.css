@@ -1,5 +1,5 @@
-* {
-    font-family: 'Times New Roman', Times, serif;
+.color-header {
+    background-color: aquamarine;
 }
 
 .card {
@@ -71,10 +71,13 @@
 
 .card:hover,
 .card:hover img {
-    background-color: hsl(190, 100%, 98%);
+    background-color: hsl(201, 100%, 97%);
     box-shadow: 0 0 10px white;
     border-color: rgb(0, 0, 0);
 }
+
+
+/* cover hình sản phẩm */
 
 .hinh1,
 .hinh2,
@@ -105,6 +108,9 @@
     text-align: center;
 }
 
+
+/* Phân trang */
+
 .pagination {
     font-size: 30px;
     font-weight: 100;
@@ -127,14 +133,23 @@
     text-decoration: none;
 }
 
+
+/* Bỏ gạch chân */
+
 .footer a:hover {
     text-decoration: underline;
 }
+
+
+/* Icon mxh */
 
 .social-icons i {
     font-size: 24px;
     margin-right: 15px;
 }
+
+
+/* Khi nhấn vào tạo màu */
 
 .social-icons a:hover i {
     color: #007bff;
